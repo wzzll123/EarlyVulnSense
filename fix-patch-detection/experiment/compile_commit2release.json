@@ -1,0 +1,176 @@
+{
+    "zrlog": {
+        "jar_url": ["zrlog/common/target/common-{jar_version}.jar",
+          "zrlog/data/target/data-{jar_version}.jar",
+          "zrlog/service/target/service-{jar_version}.jar"
+        ],
+        "commit2jar":{
+          "bd2dba1": "2.0.6",
+          "5e8a51f": "2.2.0",
+          "3096bc8": "2.2.2-SNAPSHOT"
+        }
+    
+      },
+      "opentsdb": {
+        "jar_url": ["opentsdb/build/tsdb-2.4.1.jar"],
+        "commit2jar":{
+          "54601d9": "2.3.2",
+          "14ab3ef": "2.4.0",
+          "9de0f9f": "2.4.1"
+        }
+      },
+      "nmap4j": {
+        "jar_url": ["nmap4j/target/org.nmap4j-{jar_version}.jar"],
+        "commit2jar":{
+          "d59fc4d": "1.0.4"
+        }
+      },
+      "cwlviewer": {
+        "jar_url": ["cwlviewer/target/classes"],
+        "commit2jar":{
+          "8b77056": "pass",
+          "f6066f0": "pass",
+          "0301bba": "pass"
+        }
+      },
+      "emissary": {
+        "jar_url": ["emissary/target/emissary-{jar_version}.jar"],
+        "commit2jar":{
+          "0be7265": "6.4.0",
+          "37a54b4": "6.5.0",
+          "77b4833": "6.6.0",
+          "ea2c59b": "7.0.0",
+          "5cd0c16": "7.1.0",
+          "12670c7": "7.2.0",
+          "6873c25": "7.3.0",
+          "271a229": "7.4.0",
+          "3fbfec1": "7.5.0",
+          "ac7bce8": "7.6.0",
+          "40260b1": "6.6.0-SNAPSHOT"
+        }
+      },
+      "onedev":{
+        "jar_url": ["onedev/server-core/target/io.onedev.server-core-{jar_version}.jar",
+        "onedev/server-ee/target/io.onedev.server-ee-{jar_version}.jar"],
+        "commit2jar":{
+          "d880b1b": "9.2.3"
+        }
+      },
+      "sqlite-jdbc": {
+        "jar_url": ["sqlite-jdbc/target/sqlite-jdbc-{jar_version}.jar"
+        ],
+        "commit2jar":{
+          "a106632": "3.43.2.1"
+        }
+      },
+      "reload4j": {
+        "jar_url": ["reload4j/target/reload4j-{jar_version}.jar"],
+        "commit2jar":{
+          "2dfce6a": "1.2.25"
+        }
+      },
+      "rocketmq":{
+        "jar_url": [
+          "rocketmq/container/target/rocketmq-container-5.1.5-SNAPSHOT.jar",
+          "rocketmq/controller/target/rocketmq-controller-5.1.5-SNAPSHOT.jar",
+          "rocketmq/filter/target/rocketmq-filter-5.1.5-SNAPSHOT.jar",
+          "rocketmq/store/target/rocketmq-store-5.1.5-SNAPSHOT.jar",
+          "rocketmq/tieredstore/target/rocketmq-tiered-store-5.1.5-SNAPSHOT.jar",
+          "rocketmq/openmessaging/target/rocketmq-openmessaging-5.1.5-SNAPSHOT.jar",
+          "rocketmq/common/target/rocketmq-common-5.1.5-SNAPSHOT.jar",
+          "rocketmq/remoting/target/rocketmq-remoting-5.1.5-SNAPSHOT.jar",
+          "rocketmq/srvutil/target/rocketmq-srvutil-5.1.5-SNAPSHOT.jar",
+          "rocketmq/client/target/rocketmq-client-5.1.5-SNAPSHOT.jar",
+          "rocketmq/tools/target/rocketmq-tools-5.1.5-SNAPSHOT.jar",
+          "rocketmq/broker/target/rocketmq-broker-5.1.5-SNAPSHOT.jar",
+          "rocketmq/namesrv/target/rocketmq-namesrv-5.1.5-SNAPSHOT.jar",
+          "rocketmq/proxy/target/rocketmq-proxy-5.1.5-SNAPSHOT.jar",
+          "rocketmq/acl/target/rocketmq-acl-5.1.5-SNAPSHOT.jar"
+
+        ],
+        "commit2jar":{
+          "8f020b3": "5.1.5-SNAPSHOT"
+        }
+      },
+      "OpenRefine":{
+        "jar_url": [
+          "OpenRefine/server/target/openrefine-{jar_version}-server.jar",
+          "OpenRefine/extensions/database/target/openrefine-database.jar",
+          "OpenRefine/main/target/openrefine-main.jar"
+        ],
+        "commit2jar":{
+          "5d8d9d1": "3.8-SNAPSHOT"
+        } 
+      },
+      "inlong":{
+        "jar_url": [
+          "inlong/inlong-manager/manager-client/target/manager-client.jar",
+          "inlong/inlong-manager/manager-client-examples/target/manager-client-examples-{jar_version}.jar",
+          "inlong/inlong-manager/manager-client-tools/target/manager-client-tools-{jar_version}.jar",
+          "inlong/inlong-manager/manager-common/target/manager-common-{jar_version}.jar",
+          "inlong/inlong-manager/manager-dao/target/manager-dao-{jar_version}.jar",
+          "inlong/inlong-manager/manager-docker/target/manager-docker-{jar_version}.jar",
+          "inlong/inlong-manager/manager-plugins/base/target/manager-plugins-base-{jar_version}.jar",
+          "inlong/inlong-manager/manager-pojo/target/manager-pojo-{jar_version}.jar",
+          "inlong/inlong-manager/manager-service/target/manager-service-{jar_version}.jar",
+          "inlong/inlong-manager/manager-test/target/manager-test-{jar_version}.jar",
+          "inlong/inlong-manager/manager-web/target/manager-web.jar",
+          "inlong/inlong-manager/manager-workflow/target/manager-workflow-{jar_version}.jar"
+        ],
+        "commit2jar":{
+          "271541f": "1.10.0-SNAPSHOT"
+        } 
+      },
+      "jeecg-boot":{
+        "jar_url": [
+          "jeecg-boot/jeecg-module-system/jeecg-system-start/target/jeecg-system-start-3.6.0.jar",
+          "jeecg-boot/jeecg-module-system/jeecg-system-api/jeecg-system-local-api/target/jeecg-system-local-api-3.6.0.jar",
+          "jeecg-boot/jeecg-module-system/jeecg-system-api/jeecg-system-cloud-api/target/jeecg-system-cloud-api-3.6.0.jar",
+          "jeecg-boot/jeecg-module-system/jeecg-system-biz/target/jeecg-system-biz-3.6.0.jar",
+          "jeecg-boot/jeecg-module-demo/target/jeecg-module-demo-3.6.0.jar",
+          "jeecg-boot/jeecg-boot-base-core/target/jeecg-boot-base-core-3.6.0.jar"
+        ],
+        "commit2jar":{
+          "04c55fa": "3.6.0"
+        }
+      },
+      "zeppelin":{
+        "jar_url": [
+          "zeppelin/zeppelin-common/target/zeppelin-common-0.11.0-SNAPSHOT.jar",
+          "zeppelin/zeppelin-server/target/zeppelin-server-0.11.0-SNAPSHOT.jar"
+        ],
+        "commit2jar":{
+          "579074e": "0.11.0-SNAPSHOT"
+        }
+      },
+      "yamcs":{
+        "jar_url": [
+          "yamcs/packet-viewer/target/packet-viewer-{jar_version}.jar",
+          "yamcs/yamcs-client/target/yamcs-client-{jar_version}.jar",
+          "yamcs/yamcs-core/target/yamcs-core-{jar_version}.jar",
+          "yamcs/yamcs-tse/target/yamcs-tse-{jar_version}.jar",
+          "yamcs/yamcs-web/target/yamcs-web-{jar_version}.jar",
+          "yamcs/yamcs-api/target/yamcs-api-{jar_version}.jar",
+          "yamcs/yamcs-xtce/target/yamcs-xtce-{jar_version}.jar"
+        ],
+        "commit2jar":{
+          "a0a7a25": "5.8.8-SNAPSHOT"
+        }
+      },
+      "spring-kafka":{
+        "jar_url": [
+          "spring-kafka/spring-kafka/build/libs/spring-kafka-{jar_version}.jar"
+        ],
+        "commit2jar":{
+          "6876694": "3.1.0-SNAPSHOT"
+        } 
+      },
+      "shardingsphere":{
+        "jar_url": [
+          "shardingsphere/agent/core/target/shardingsphere-agent.jar"
+        ],
+        "commit2jar":{
+          "ac920a1": "5.4.2-SNAPSHOT"
+        }  
+      }
+}

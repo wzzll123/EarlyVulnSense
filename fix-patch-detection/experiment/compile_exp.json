@@ -1,0 +1,51 @@
+[
+  {
+    "project": "zrlog",
+    "jar_url": ["zrlog/common/target/common-2.0.6.jar",
+      "zrlog/data/target/data-2.0.6.jar",
+      "zrlog/service/target/service-2.0.6.jar",
+      "zrlog/common/target/common-2.0.6.jar"
+    ],
+    "url":"https://github.com/94fzb/zrlog",
+    "patch_commit": "bd2dba1",
+    "release_commit": "bd2dba1",
+    "dependencies":["jfinal-4.9.06.jar"],
+    "after_release_commit": "5a3c857",
+    "previous_release_commit":"63717e8",
+    "dependency_url":["https://repo1.maven.org/maven2/com/jfinal/jfinal/4.9.06/jfinal-4.9.06.jar"]
+  },
+  {
+    "project": "cwlviewer",
+    "url":"https://github.com/common-workflow-language/cwlviewer",
+    "jar_url": ["cwlviewer/target/"],
+    "patch_commit": "f6066f0",
+    "release_commit": "f6066f0",
+    "previous_release_commit":"9602702",
+    "after_release_commit": "0fdcfc9"
+  },
+  {
+    "project": "emissary",
+    "url":"https://github.com/NationalSecurityAgency/emissary",
+    "jar_url": ["emissary/target/emissary-6.6.0-SNAPSHOT.jar"],
+    "patch_commit": "40260b1",
+    "release_commit": "40260b1",
+    "after_release_commit":"77b4833",
+    "previous_release_commit":"fd0e1c2"
+  },
+  {
+    "project": "opentsdb",
+    "jar_url": ["opentsdb/build/tsdb-2.4.1.jar"],
+    "url": "https://github.com/OpenTSDB/opentsdb",
+    "release_commit": "9de0f9f",
+    "patch_commit": "b89fded"
+  },
+
+  {
+    "project": "nmap4j",
+    "url":"https://github.com/narkisr/nmap4j",
+    "jar_url": ["nmap4j/target/org.nmap4j-1.0.4.jar"],
+    "release_commit": "d59fc4d",
+    "patch_commit": "06b58aa",
+    "previous_release_commit":"6379a09"
+  }
+]

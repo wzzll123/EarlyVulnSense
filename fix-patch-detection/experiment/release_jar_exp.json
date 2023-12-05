@@ -1,0 +1,844 @@
+[
+  {
+    "project": "plexus-utils",
+    "jar_url": ["https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.16/plexus-utils-3.0.16.jar"],
+    "patch_commit": "b38a1b3",
+    "release_commit":"cf317f9",
+    "previous_release_commit": "3b271b4",
+    "url":"https://github.com/codehaus-plexus/plexus-utils",
+    "dependencies":[]
+  },
+
+
+
+  {
+    "project": "xm-commons",
+    "description": "original commit cannot be detected, use another fixes, release commit is patch commit",
+
+    "jar_url": ["https://repo1.maven.org/maven2/com/icthh/xm/commons/xm-commons-migration-db/2.0.11/xm-commons-migration-db-2.0.11.jar"],
+    "patch_commit": "e7506f8",
+    "release_commit":"e7506f8",
+    "previous_release_commit": "0dee0b9",
+    "url":"https://github.com/xm-online/xm-commons",
+    "dependencies":[]
+
+  },
+
+  {
+    "project": "dashbuilder",
+    "CVE":"CVE-2016-4999",
+    "url": "https://github.com/dashbuilder/dashbuilder",
+
+    "patch_commit": "8574899",
+    "release_commit": "f9abb99",
+    "previous_release_commit": "61f30e3",
+    
+    "jar_url": ["https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-dataset-sql/0.6.0.Beta2/dashbuilder-dataset-sql-0.6.0.Beta2.jar"],
+    "dependencies":[]
+  },
+  {
+    "project": "spring-data-jpa",
+    "url": "https://github.com/spring-projects/spring-data-jpa",
+    "jar_url": ["https://repo1.maven.org/maven2/org/springframework/data/spring-data-jpa/1.11.0.RELEASE/spring-data-jpa-1.11.0.RELEASE.jar"],
+    "patch_commit": "b8e7fec",
+    "release_commit": "cd4aea6",
+    "after_release_commit": "0bea9cc",
+    "previous_release_commit": "20f0c0d",
+    "dependencies":[]
+  },
+  {
+    "project": "uaa",
+    "jar_url": ["https://repo1.maven.org/maven2/org/cloudfoundry/identity/cloudfoundry-identity-server/3.4.2/cloudfoundry-identity-server-3.4.2.jar"],
+    "patch_commit": "b384a65",
+    "url": "https://github.com/cloudfoundry/uaa",
+    "release_commit": "094f751",
+    "previous_release_commit": "23e4e93",
+    "dependencies":["https://repo1.maven.org/maven2/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE.jar"]
+  },
+  {
+    "project": "uaa",
+    "url": "https://github.com/cloudfoundry/uaa",
+    "jar_url": ["https://repo1.maven.org/maven2/org/cloudfoundry/identity/cloudfoundry-identity-server/3.16.0/cloudfoundry-identity-server-3.16.0.jar"],
+    "patch_commit": "74b9b27",
+    "release_commit": "b8f1bf1",
+    "previous_release_commit": "2051aec",
+    "dependencies":[]
+
+  },
+  {
+    "project": "raml-module-builder",
+    "description": "add sql injection sink model",
+    "url": "https://github.com/folio-org/raml-module-builder",
+
+    "jar_url": ["https://repository.folio.org/repository/maven-folio/org/folio/domain-models-runtime/27.0.0/domain-models-runtime-27.0.0.jar"],
+    "patch_commit": "b7ef741",
+    "release_commit": "f7a4ebf",
+    "previous_release_commit": "3f0747a",
+    
+    "dependencies":[]
+  },
+
+  {
+    "project":"ec2-plugin",
+    "CVE":"CVE-2017-1000502",
+
+    "url":"https://github.com/jenkinsci/ec2-plugin.git",
+    "patch_commit":"180f7d0",
+    "release_commit":"4a8ae77",
+    "after_release_commit":"40ef9b4",
+    "previous_release_commit": "c0f7425",
+    
+    "jar_url": ["https://repo.jenkins-ci.org/artifactory/public/org/jenkins-ci/plugins/ec2/1.38/ec2-1.38.jar"],
+    "dependencies":["https://repo.jenkins-ci.org/artifactory/public/org/jenkins-ci/plugins/command-launcher/1.2/command-launcher-1.2.jar",
+      "https://repo.jenkins-ci.org/artifactory/public/org/jenkins-ci/plugins/script-security/1.37/script-security-1.37.jar"]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.9.4/jackson-databind-2.7.9.4.jar"],
+    "patch_commit": "28badf7",
+    "previous_release_commit": "5cacb06",
+    
+    "release_commit": "cc654ca",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "multiple",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.2/jackson-databind-2.8.11.2.jar"],
+    "patch_commit": "7487cf7",
+    "release_commit": "0dbab94",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.2/jackson-databind-2.6.7.2.jar"],
+    "patch_commit": "87d29af",
+    "previous_release_commit": "f7abd68",
+    
+    "release_commit": "fab5c38",
+    "dependencies":[]
+  }, 
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.9.5/jackson-databind-2.7.9.5.jar"],
+    "patch_commit": "42912ca",
+    "previous_release_commit": "cc654ca",
+    
+    "release_commit": "2723191",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.9.6/jackson-databind-2.7.9.6.jar"],
+    "patch_commit": "ad418ee",
+    "previous_release_commit": "2723191",
+    
+    "release_commit": "97986cb",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.9.2/jackson-databind-2.7.9.2.jar"],
+    "patch_commit": "2235894",
+    "previous_release_commit": "8419c81",
+    
+    "release_commit": "9e170e1",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "multiple",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.9.2/jackson-databind-2.7.9.2.jar"],
+    "patch_commit": "f031f27",
+    "previous_release_commit": "8419c81",
+    
+    "release_commit": "9e170e1",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.9.4/jackson-databind-2.7.9.4.jar"],
+    "patch_commit": "27b4def",
+    "previous_release_commit": "5cacb06",
+    
+    "release_commit": "cc654ca",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar"],
+    "patch_commit": "dda513b",
+    "previous_release_commit": "74b90a4",
+    
+    "release_commit": "a977aad",
+    "dependencies":[]
+  },
+  
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.9.6/jackson-databind-2.7.9.6.jar"],
+    "patch_commit": "5f7c69b",
+    "previous_release_commit": "2723191",
+    
+    "release_commit": "97986cb",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.5/jackson-databind-2.8.11.5.jar"],
+    "patch_commit": "d4983c7",
+    "previous_release_commit": "e013e0f",
+    
+    "release_commit": "ba9ac61",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.5/jackson-databind-2.8.11.5.jar"],
+    "patch_commit": "9593e16",
+    "previous_release_commit": "e013e0f",
+    
+    "release_commit": "ba9ac61",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.5/jackson-databind-2.8.11.5.jar"],
+    "patch_commit": "191a4cd",
+    "previous_release_commit": "e013e0f",
+    
+    "release_commit": "ba9ac61",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.5/jackson-databind-2.8.11.5.jar"],
+    "patch_commit": "b5a304a",
+    "previous_release_commit": "e013e0f",
+    
+    "release_commit": "ba9ac61",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.5/jackson-databind-2.8.11.5.jar"],
+    "patch_commit": "fc4214a",
+    "previous_release_commit": "e013e0f",
+    
+    "release_commit": "ba9ac61",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar"],
+    "patch_commit": "05d7e0e",
+    "previous_release_commit": "2d53865",
+    
+    "release_commit": "1d91906",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar"],
+    "patch_commit": "4d038c9",
+    "previous_release_commit": "2d53865",
+    
+    "release_commit": "1d91906",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar"],
+    "patch_commit": "c14c9f9",
+    "previous_release_commit": "2d53865",
+    
+    "release_commit": "1d91906",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar"],
+    "patch_commit": "e2ba12d",
+    "previous_release_commit": "2d53865",
+    
+    "release_commit": "1d91906",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar"],
+    "patch_commit": "113e89fb",
+    "previous_release_commit": "2d53865",
+    
+    "release_commit": "1d91906",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar"],
+    "patch_commit": "77040d8",
+    "previous_release_commit": "2d53865",
+    
+    "release_commit": "1d91906",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.5/jackson-databind-2.9.10.5.jar"],
+    "patch_commit": "d1c67a0",
+    "previous_release_commit": "1d91906",
+    
+    "release_commit": "82c84c7",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.5/jackson-databind-2.9.10.5.jar"],
+    "patch_commit": "5c8642ae",
+    "previous_release_commit": "1d91906",
+    
+    "release_commit": "82c84c7",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.5/jackson-databind-2.9.10.5.jar"],
+    "patch_commit": "840eae2",
+    "previous_release_commit": "1d91906",
+    
+    "release_commit": "82c84c7",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.5/jackson-databind-2.9.10.5.jar"],
+    "patch_commit": "f6d9c66",
+    "previous_release_commit": "1d91906",
+    
+    "release_commit": "82c84c7",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.6/jackson-databind-2.9.10.6.jar"],
+    "patch_commit": "3d97153",
+    "previous_release_commit": "82c84c7",
+    
+    "release_commit": "f797abc",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.6/jackson-databind-2.9.10.6.jar"],
+    "patch_commit": "6cc9f1a",
+    "previous_release_commit": "82c84c7",
+    
+    "release_commit": "f797abc",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.8/jackson-databind-2.9.10.8.jar"],
+    "patch_commit": "41b8bdb",
+    "previous_release_commit": "d0e9952",
+    
+    "release_commit": "7ae9214",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.8/jackson-databind-2.9.10.8.jar"],
+    "patch_commit": "1ca0388",
+    "previous_release_commit": "d0e9952",
+    
+    "release_commit": "7ae9214",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.8/jackson-databind-2.9.10.8.jar"],
+    "patch_commit": "3ded28a",
+    "previous_release_commit": "d0e9952",
+    
+    "release_commit": "7ae9214",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.8/jackson-databind-2.9.10.8.jar"],
+    "patch_commit": "12e23c9",
+    "previous_release_commit": "d0e9952",
+    
+    "release_commit": "7ae9214",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.8/jackson-databind-2.9.10.8.jar"],
+    "patch_commit": "567194c",
+    "previous_release_commit": "d0e9952",
+    
+    "release_commit": "7ae9214",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.8/jackson-databind-2.9.10.8.jar"],
+    "patch_commit": "3e8fa3b",
+    "previous_release_commit": "d0e9952",
+    
+    "release_commit": "7ae9214",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.8/jackson-databind-2.9.10.8.jar"],
+    "patch_commit": "33d96c1",
+    "previous_release_commit": "d0e9952",
+    
+    "release_commit": "7ae9214",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.5/jackson-databind-2.8.11.5.jar"],
+    "patch_commit": "914e7c9",
+    "previous_release_commit": "e013e0f",
+    
+    "release_commit": "ba9ac61",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar"],
+    "patch_commit": "9f4e970",
+    "previous_release_commit": "2d53865",
+    
+    "release_commit": "1d91906",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.7/jackson-databind-2.9.10.7.jar"],
+    "patch_commit": "7dbf51b",
+    "previous_release_commit": "f797abc",
+    
+    "release_commit": "d0e9952",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.4/jackson-databind-2.8.11.4.jar"],
+    "patch_commit": "efc3c0d",
+    "previous_release_commit": "71c8143",
+    
+    "release_commit": "e013e0f",
+    "dependencies":[]
+  },
+  {
+    "project": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "description": "origin blocklist",
+    "jar_url": ["https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.8.1/jackson-databind-2.8.8.1.jar"],
+    "patch_commit": "60d459c",
+    "previous_release_commit": "2f93aed",
+    
+    "release_commit": "bb89b51",
+    "dependencies":[]
+  },
+  
+  
+  {
+    "project": "cassandra",
+    "url": "https://github.com/apache/cassandra",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/cassandra/cassandra-all/2.1.4/cassandra-all-2.1.4.jar"],
+    "patch_commit": "c041ea8",
+    "release_commit": "c041ea8",
+    "previous_release_commit": "7cc1cf0",
+    "dependencies":[]
+
+  },
+
+
+  {
+    "project": "pippo",
+    "url": "https://github.com/pippo-java/pippo",
+    "jar_url": ["https://repo1.maven.org/maven2/ro/pippo/pippo-session/1.12.0/pippo-session-1.12.0.jar",
+    "https://repo1.maven.org/maven2/ro/pippo/pippo-core/1.12.0/pippo-core-1.12.0.jar"],
+    "patch_commit": "c6b2655",
+    "release_commit": "7da9f4d",
+    "previous_release_commit": "a2eb20f",
+    
+    "dependencies":[]
+  },
+  {
+    "project": "brooklyn-server",
+    "url": "https://github.com/apache/brooklyn-server",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/brooklyn/brooklyn-utils-common/0.11.0/brooklyn-utils-common-0.11.0.jar"],
+    "patch_commit": "3ae4a4d",
+    
+    
+    "release_commit": "320ab09",
+    "after_release_commit": "3ae4a4d",
+    "previous_release_commit": "d520fde",
+    
+    "dependencies":[]
+  },
+  {
+    "project": "logback",
+    "url": "https://github.com/qos-ch/logback",
+    "jar_url": ["https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.0/logback-core-1.2.0.jar"],
+    "patch_commit": "f46044b",
+    "release_commit": "dc4ed69",
+    "previous_release_commit": "1213fca",
+    
+    "dependencies":[]
+  },
+
+  {
+    "project": "jodd",
+    "url": "https://github.com/oblac/jodd",
+    "jar_url": ["https://repo1.maven.org/maven2/org/jodd/jodd-all/5.0.4/jodd-all-5.0.4.jar"],
+    "patch_commit": "9bffc39",
+    "release_commit": "9c891fc",
+    "previous_release_commit": "2cd4c9c",
+    
+    "dependencies":[]
+
+  },
+  {
+    "project": "rabbitmq-jms-client",
+    "url": "https://github.com/rabbitmq/rabbitmq-jms-client",
+    "jar_url": ["https://repo1.maven.org/maven2/com/rabbitmq/jms/rabbitmq-jms/2.2.0/rabbitmq-jms-2.2.0.jar"],
+    "patch_commit": "f647e5d",
+    "release_commit": "a017343",
+    "previous_release_commit":"618242d",
+    "dependencies":[]
+  },
+  {
+    "project": "logging-log4j2",
+    "url": "https://github.com/apache/logging-log4j2",
+
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar"],
+    "patch_commit": "5dcc192",
+    "release_commit": "097426a",
+    "previous_release_commit":"5b159bd",
+    
+    "dependencies":[]
+  },
+
+
+  {
+    "project": "mybatis-3",
+    "url": "https://github.com/mybatis/mybatis-3",
+    "jar_url": ["https://repo1.maven.org/maven2/org/mybatis/mybatis/3.5.6/mybatis-3.5.6.jar"],
+    "patch_commit": "9caf480",
+    "release_commit": "4f286a7",
+    "previous_release_commit":"ee478c2",
+    "dependencies":[]
+  },
+
+  {
+    "project": "swagger-parser",
+    "url": "https://github.com/swagger-api/swagger-parser",
+    "jar_url": ["https://repo1.maven.org/maven2/io/swagger/swagger-parser/1.0.31/swagger-parser-1.0.31.jar"],
+    "patch_commit": "4c65843",
+    "release_commit": "67a2226",
+    "previous_release_commit":"4234995",
+    "dependencies":[]
+
+  },
+
+
+
+  {
+    "project": "spring-amqp",
+    "url": "https://github.com/spring-projects/spring-amqp",
+    "jar_url": ["https://repo1.maven.org/maven2/org/springframework/amqp/spring-amqp/2.0.0.RELEASE/spring-amqp-2.0.0.RELEASE.jar"],
+    "patch_commit": "36e5599",
+    "release_commit": "0268485",
+    "after_release_commit":"c4e69bd",
+    "previous_release_commit": "79b0ff0",
+    "dependencies":["https://repo1.maven.org/maven2/org/springframework/spring-core/5.0.0.RELEASE/spring-core-5.0.0.RELEASE.jar"]
+
+  },
+  {
+    "project": "spring-security",
+    "url": "https://github.com/spring-projects/spring-security",
+    "jar_url": ["https://repo1.maven.org/maven2/org/springframework/security/spring-security-core/5.0.0.RELEASE/spring-security-core-5.0.0.RELEASE.jar"],
+    "patch_commit": "5dee853",
+    "release_commit": "62e7762",
+    "after_release_commit": "783e426",
+    "previous_release_commit": "f279346",
+    "dependencies":[]
+  },
+  {
+    "project": "struts",
+    "url": "https://github.com/apache/struts",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/struts/struts2-rest-plugin/2.5.13/struts2-rest-plugin-2.5.13.jar"],
+    "patch_commit": "1949471",
+    "release_commit": "9f50826",
+    "previous_release_commit": "ee74aea",
+    "dependencies":[]
+
+  },
+  {
+    "project": "struts",
+    "url": "https://github.com/apache/struts",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/struts/struts2-core/2.5/struts2-core-2.5.jar"],
+    "patch_commit": "f238cf4",
+    "release_commit": "4bee55f",
+    "previous_release_commit": "36b6fff",
+    "dependencies":[]
+  },
+
+  {
+    "project": "spark",
+    "url": "https://github.com/apache/spark",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.3.0/spark-launcher_2.11-2.3.0.jar"],
+    "patch_commit": "8efc6e9",
+    "release_commit": "992447fb",
+    "after_release_commit":"37ef32e",
+    "previous_release_commit":"640afa4",
+    "dependencies":[]
+  },
+  {
+    "project": "spark",
+    "url": "https://github.com/apache/spark",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.1.2/spark-launcher_2.11-2.1.2.jar"],
+    "patch_commit": "0b25a7d",
+    "release_commit": "2abaea9",
+    "dependencies":[],
+    "description": "multiple"
+  },
+
+  {
+    "project": "camel",
+    "url": "https://github.com/apache/camel",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/camel/camel-snakeyaml/2.19.0/camel-snakeyaml-2.19.0.jar",
+      "https://repo1.maven.org/maven2/org/apache/camel/camel-core/2.19.0/camel-core-2.19.0.jar",
+      "https://repo1.maven.org/maven2/org/apache/camel/camel-snakeyaml-starter/2.19.0/camel-snakeyaml-starter-2.19.0.jar"],
+    "patch_commit": "6b979d0",
+    "after_release_commit": "2123a4c",
+    "previous_release_commit":"8ed3448",
+    "release_commit": "6cb0023",
+    "dependencies":[]
+  },
+  {
+    "project": "camel",
+    "description": "multiple vulnerability in one release, see https://camel.apache.org/security/",
+    "url": "https://github.com/apache/camel",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/camel/camel-core/2.21.0/camel-core-2.21.0.jar",
+      "https://repo1.maven.org/maven2/org/apache/camel/camel-castor-starter/2.21.0/camel-castor-starter-2.21.0.jar"],
+    "patch_commit": "bdff8f3",
+    "release_commit": "36bea62",
+    "previous_release_commit": "36bea62",
+    "dependencies":[]
+  },
+  {
+    "project": "camel",
+    "url": "https://github.com/apache/camel",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/camel/camel-core/2.21.0/camel-core-2.21.0.jar",
+      "https://repo1.maven.org/maven2/org/apache/camel/camel-castor-starter/2.21.0/camel-castor-starter-2.21.0.jar"],
+    "patch_commit": "2ae645e",
+    "release_commit": "36bea62",
+    "previous_release_commit": "36bea62",
+    "description": "multiple vulnerability in one release, see https://camel.apache.org/security/",
+    "dependencies":[]
+  },
+  {
+    "project": "camel",
+    "url": "https://github.com/apache/camel",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/camel/camel-jackson/2.19.0/camel-jackson-2.19.0.jar",
+      "https://repo1.maven.org/maven2/org/apache/camel/camel-core/2.19.0/camel-core-2.19.0.jar",
+      "https://repo1.maven.org/maven2/org/apache/camel/camel-jackson-starter/2.19.0/camel-jackson-starter-2.19.0.jar"],
+    "patch_commit": "7567488",
+    "release_commit": "6cb0023",
+    "after_release_commit":"589dadb",
+    "previous_release_commit": "1f48c19",
+    "dependencies":[]
+  },
+  
+  {
+    "project": "ignite",
+    "url": "https://github.com/apache/ignite",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/ignite/ignite-core/2.7.5/ignite-core-2.7.5.jar"],
+    "patch_commit": "340569b",
+    "release_commit": "be4f2a1",
+    "after_release_commit":"2fd5696",
+    "previous_release_commit": "ce96e4f",
+    "dependencies":[]
+
+  },
+  {
+    "project": "ignite",
+    "url": "https://github.com/apache/ignite",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/ignite/ignite-core/2.7.5/ignite-core-2.7.5.jar"],
+    "patch_commit": "bc374f8",
+    "release_commit": "be4f2a1",
+    "after_release_commit":"0d82f10",
+    "previous_release_commit":"b4b965b",
+    
+    "dependencies":[]
+
+  },
+  {
+    "project": "hive",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/hive/hive-jdbc/3.0.0/hive-jdbc-3.0.0.jar"],
+    "patch_commit": "0330c1c",
+    "release_commit": "ce61711",
+    "url": "https://github.com/apache/hive",
+    "after_release_commit":"b0a58d2",
+    "previous_release_commit":"b7b3f88",
+    "dependencies":[]
+  },
+  {
+    "project": "jenkins",
+    "jar_url": ["https://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-core/2.121.3/jenkins-core-2.121.3.jar"],
+    "url":"https://github.com/jenkinsci/jenkins.git",
+    "patch_commit":"727d58f",
+    "release_commit": "a69801a",
+    "dependencies":[],
+    "description": "mutiple fix in a release"
+  },
+  {
+    "project": "jenkins",
+    "jar_url": ["https://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-core/2.32.2/jenkins-core-2.32.2.jar"],
+    "url":"https://github.com/jenkinsci/jenkins.git",
+    "patch_commit":"a814154",
+    "release_commit": "4992b15",
+    "dependencies":[],
+    "description": "mutiple fix in a release" 
+  },
+  {
+    "project": "jenkins",
+    "jar_url": ["https://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-core/2.138.4/jenkins-core-2.138.4.jar"],
+    "url":"https://github.com/jenkinsci/jenkins.git",
+    "patch_commit":"47f38d7",
+    "release_commit": "1398df9",
+    "dependencies":[],
+    "description": "mutiple fix in a release" 
+  },
+  {
+    "project": "jenkins",
+    "jar_url": ["https://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-core/2.73.2/jenkins-core-2.73.2.jar"],
+    "url":"https://github.com/jenkinsci/jenkins.git",
+    "patch_commit":"d7ea3f4",
+    "release_commit": "2e2c70e",
+    "dependencies":[],
+    "description": "mutiple fix in a release" 
+  },
+  {
+    "project": "groovy",
+    "patch_commit": "4df8b65",
+    "release_commit": "1c32d65",
+    "previous_release_commit": "4fb0a4b",
+    "url":"https://github.com/apache/groovy.git",
+    "jar_url": ["https://repo1.maven.org/maven2/org/codehaus/groovy/groovy/2.4.8/groovy-2.4.8.jar"],
+    "dependencies":[]
+
+  },
+  {
+    "project": "xstream",
+    "patch_commit": "0fec095",
+    "release_commit": "b9f6f59",
+    "previous_release_commit": "cba30d7",
+    "url":"https://github.com/x-stream/xstream.git",
+    "jar_url": ["https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.14/xstream-1.4.14.jar"],
+    "dependencies":[] 
+  },
+  {
+    "project": "xstream",
+    "patch_commit": "6344867",
+    "release_commit": "b9f6f59",
+    "previous_release_commit": "b9f6f59",
+    "url":"https://github.com/x-stream/xstream.git",
+    "jar_url": ["https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.14/xstream-1.4.14.jar"],
+    "dependencies":[],
+    "description": "can not find exact release commit"
+
+  },
+  {
+    "project": "wicket",
+    "patch_commit": "8faa056",
+    "release_commit": "bcbc40e",
+    "previous_release_commit": "07573fe",
+    "url": "https://github.com/apache/wicket.git",
+    "jar_url": ["https://repo1.maven.org/maven2/org/apache/wicket/wicket-util/6.25.0/wicket-util-6.25.0.jar","https://repo1.maven.org/maven2/org/apache/wicket/wicket-core/6.25.0/wicket-core-6.25.0.jar"],
+    "dependencies":[] 
+  }
+]
