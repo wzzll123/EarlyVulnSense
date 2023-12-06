@@ -63,8 +63,6 @@ if __name__ == '__main__':
             exp_config=exp_configs[i]
             if exp_config['project'] in exclude_project:
                 continue
-            if exp_config['project'] != 'camel':
-                continue
             commit2release=commiit2release_dict[exp_config['project']]
             github_repo_local_path=os.path.join(projects_root_path,exp_config['project'],exp_config['project'])
             repo=git.Repo(github_repo_local_path)
