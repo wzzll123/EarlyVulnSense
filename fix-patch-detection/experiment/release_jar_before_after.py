@@ -56,31 +56,7 @@ if __name__ == '__main__':
     projects_root_path=Path("../projects/")
     # already_exp=['plexus-utils','opentsdb','xm-commons','dashbuilder','spring-data-jpa','uaa','raml-module-builder','ec2-plugin','jackson-databind',
     # 'cassandra','pippo']
-    last_project='camel'
-    if len(sys.argv) == 1:
-        reach_last=False
-        for i in range(len(exp_configs)):
-            exp_config=exp_configs[i]
-            if exp_config['project'] == last_project:
-                reach_last=True
-            if not reach_last:
-                continue
-            commit2release=commiit2release_dict[exp_config['project']]
-            github_repo_local_path=os.path.join(projects_root_path,exp_config['project'],exp_config['project'])
-            repo=git.Repo(github_repo_local_path)
-            commits_before, commits_after = get_commits_around_commit(repo,exp_config['patch_commit'],100,100)
-            
-            # for commit in commits_before:
-            #     print(f"Commit before: {commit.hexsha}")
-            # print(f"Commit current: {exp_config['patch_commit']}") 
-            # for commit in commits_after:
-            #     print(f"Commit after: {commit.hexsha}")
-
-            for before_commit in commits_before:
-                exp_for_before_after_commit(before_commit,repo,commit2release,exp_config,projects_root_path)
-            for after_commit in commits_after:
-                exp_for_before_after_commit(after_commit,repo,commit2release,exp_config,projects_root_path)
-    elif len(sys.argv) == 2 :
+    if len(sys.argv) == 2 :
         exclude_project=['struts','ignite','jackson-databind','jenkins'] # have multiple vul fix in a release
         # commits between two release
         for i in range(len(exp_configs)):
@@ -105,7 +81,7 @@ if __name__ == '__main__':
             else:
                 commit_list.remove(fix_commit)
             for commit in commit_list:
-                if sys.argv[1]=="release":
+                if sys.argv[1]=="sanity":
                     exp_for_before_after_commit(commit,repo,commit2release,exp_config,projects_root_path)
                 elif sys.argv[1]=='permission':
                     exp_for_before_after_commit(commit,repo,commit2release,exp_config,projects_root_path,True,'BlockListCommitDetector')
