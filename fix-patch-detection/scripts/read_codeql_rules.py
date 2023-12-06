@@ -8,7 +8,7 @@ with open('config.json', 'r') as f:
     config = json.load(f)
 rule_dir = config['codeql_rule_dir']
 # rule_dir="/home/wzz/codeql/github-codeql/java/ql/lib/ext/"
-rule_files=[rule_dir+file for file in os.listdir(rule_dir) if file.endswith('.yml')]
+rule_files=[os.path.join(rule_dir,file) for file in os.listdir(rule_dir) if file.endswith('.yml')]
 final_data=[]
 # Load YAML file
 for rule_file in rule_files:
