@@ -1,6 +1,5 @@
 import soot.*;
 import soot.jimple.Stmt;
-import soot.jimple.StmtSwitch;
 import soot.jimple.internal.ImmediateBox;
 import soot.jimple.toolkits.callgraph.CallGraph;
 import soot.jimple.toolkits.callgraph.Edge;
@@ -171,7 +170,7 @@ public class ControlFlowFeature extends SceneTransformer {
                     if (sb.length()!=0){
                         isConnected=true;
                         patchMethod2patchUnits.computeIfAbsent(patchMethod, k->new HashSet<>()).addAll(patchMethod2patchStmt.get(patchMethod));
-                        if (FixCommitDetector.verbose>0){
+                        if (SanityCheckCommitDetector.verbose>0){
                             System.out.println(String.format(formattedOutput,patchMethod.toString(),sinkMethod.toString(), sb.toString()));
                         }
                     }
@@ -246,7 +245,7 @@ public class ControlFlowFeature extends SceneTransformer {
                         for (String text : uniqueTextValues) {
                             sb.append(text);
                         }
-                        if (FixCommitDetector.verbose>0){
+                        if (SanityCheckCommitDetector.verbose>0){
                             System.out.println(String.format(formattedJuncutureOutput, smallestMethod.toString() ,patchMethod.toString(), sinkMethod.toString(), sb.toString()));
                         }
                     }

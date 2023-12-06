@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class FixCommitDetector {
+public class SanityCheckCommitDetector {
     // 0: only print dataflow result
     // 1: also print sink and control flow
     public static int verbose=0;

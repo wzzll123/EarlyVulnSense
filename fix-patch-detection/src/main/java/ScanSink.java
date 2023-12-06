@@ -70,7 +70,7 @@ public class ScanSink extends SceneTransformer {
             String message=matchesSinkModel.kind+";"+callNameBuilder.toString()+";"+matchesSinkModel.input;
 
             boolean isBlockKind=false;
-            for (String blockType: FixCommitDetector.blockSinkCallTypes){
+            for (String blockType: SanityCheckCommitDetector.blockSinkCallTypes){
                 if (message.contains(blockType)){
                     isBlockKind=true;
                 }
@@ -85,7 +85,7 @@ public class ScanSink extends SceneTransformer {
         }
     }
     void addSinkCalls(String location,String message){
-        if(FixCommitDetector.verbose>0){
+        if(SanityCheckCommitDetector.verbose>0){
             System.out.println(location);
             System.out.println(message);
         }

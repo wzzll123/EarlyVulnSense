@@ -1,6 +1,5 @@
 package utils;
 
-import jdk.nashorn.internal.codegen.CompilerConstants;
 import soot.Body;
 import soot.SootMethod;
 import soot.Unit;
