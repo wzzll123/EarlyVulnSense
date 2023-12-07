@@ -51,7 +51,7 @@ def download_github_repo(github_repo_local_path,repo_url):
         except git.GitCommandError as e:
             print(f"Error cloning repository: {e}")
 def compile_release(release_path,jar_lists,exp_config):
-    get_previous_commit_script="""
+    compile_scripts="""
 PROJECT={}
 COMMIT={}
 if [[ -z "$PROJECT" || -z "$COMMIT" ]]; then
@@ -74,10 +74,11 @@ popd
         # compile
         if not os.path.exists(jar_path):
             print("jar path not exist"+jar_path)
-            sys.exit()
-            with open('tmp.sh', 'w') as file:
-                file.write(get_previous_commit_script.format(exp_config['project'],exp_config['release_commit']))
-            os.system("bash tmp.sh")
+            command = compile_scripts.format(exp_config['project'], exp_config['release_commit'])
+            os.system(command)
+            # with open('tmp.sh', 'w') as file:
+            #     file.write(compile_scripts.format(exp_config['project'],exp_config['release_commit']))
+            # os.system("bash tmp.sh")
         full_process_jar+=(jar_path+":")
         
     return full_process_jar
@@ -98,7 +99,7 @@ def do_exp_for_one(projects_root_path,exp_config,print_all=True,module='SanityCh
     print("project",exp_config['project'],exp_config['patch_commit'])
     ensure_directory_exists(os.path.join(projects_root_path,exp_config['project']))
     github_repo_local_path=os.path.join(projects_root_path,exp_config['project'],exp_config['project'])
-    # download_github_repo(github_repo_local_path,exp_config['url'])
+    download_github_repo(github_repo_local_path,exp_config['url'])
     release_path=os.path.join(projects_root_path,exp_config['project'],exp_config['release_commit'])
     if 'dependency_url' in exp_config:
         ensure_directory_exists(release_path)
@@ -131,6 +132,4 @@ if __name__ == '__main__':
     if len(sys.argv) == 2 and sys.argv[1] == 'permission':
         for i in range(len(exp_configs)):
             exp_config=exp_configs[i]
-            if exp_config['project']!='opentsdb':
-                continue
             do_exp_for_one(projects_root_path,exp_config,True,'BlockListCommitDetector')
